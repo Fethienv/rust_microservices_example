@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./planets-service/Cargo.toml"
+    ]
+}
