@@ -36,11 +36,10 @@ async fn main() -> std::io::Result<()> {
         .wrap(middleware::Logger::default())
     })
     .workers(2)
-    .bind(("127.0.0.1", 8088))?
+    .bind(("0.0.0.0", 8088))?
     .run()
     .await
 }
-
 
 // #[actix_web::main] // or #[tokio::main]
 // async fn main() -> std::io::Result<()> {

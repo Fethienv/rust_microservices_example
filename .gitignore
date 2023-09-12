@@ -2,3 +2,4 @@
 .env
 .vscode 
 /.space
+Cargo.lock
